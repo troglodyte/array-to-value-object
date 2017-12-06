@@ -5,9 +5,9 @@ namespace ArrayToValueObject;
 class ImportInto
 {
     /**
-	 * Usage: 
+     * Usage: 
      * $userEntity = new UserEntity(); // some kind of value obj with setters
-	 * $obj = ImportInto::import($userEntity, ['username'=>'john']);
+     * $obj = ImportInto::import($userEntity, ['username'=>'john']);
      *
      * @param $valueObject
      * @param array $data
