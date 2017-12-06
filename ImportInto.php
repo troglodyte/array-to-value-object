@@ -7,7 +7,7 @@ class ImportInto
     /**
      * Usage: 
      * $userEntity = new UserEntity(); // some kind of value obj with setters
-     * $obj = ImportInto::import($userEntity, ['username'=>'john']);
+     * ImportInto::import($userEntity, ['username'=>'john']);
      *
      * @param $valueObject
      * @param array $data
